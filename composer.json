@@ -1,0 +1,34 @@
+{
+    "name": "atroposmental/socialite-google-workspace",
+    "description": "Google Workspace OAuth2 Provider for Laravel Socialite",
+    "keywords": [
+        "google",
+        "workspace",
+        "laravel",
+        "oauth",
+        "provider",
+        "socialite"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dustin Hansen",
+            "email": "dustin@atroposmental.health"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "AtroposMental\\GoogleWorkspace\\": ""
+        }
+    },
+    "support": {
+        "issues": "https://github.com/atroposmental/socialite-google-workspace/issues",
+        "source": "https://github.com/atroposmental/socialite-google-workspace",
+        "docs": "https://github.com/atroposmental/socialite-google-workspac"
+    }
+}
